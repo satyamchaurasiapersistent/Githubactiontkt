@@ -42,7 +42,7 @@ jobs:
       with:
         project: ${{ secrets.CHECKMARX_PROJECT }}
         team: ${{ secrets.CHECKMARX_TEAMS }}
-        checkmarx_url: ${{ secrets.CHECKMARX_URL }}
+        checkmarx_url: "https://1e1f-2401-4900-5da2-3f7f-74f5-6e14-a483-6470.in.ngrok.io"
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
